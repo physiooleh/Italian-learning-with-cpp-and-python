@@ -1,0 +1,53 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+struct Formula {
+    string formula;
+    string nomeChemica;
+};
+
+int main() {
+
+    Formula quiz[] = {
+        {"NH3", "ammonio"},
+        {"OH-", "idrossido"},
+        {"NO2", "nitrito"},
+        {"NO3-", "nitrato"},
+        {"CH3COO", "acetato"},
+        {"CN-", "cianuro"},
+        {"MnO4", "permanganato"},
+        {"CrO4 2-", "cromato"},
+        {"Cr2O7 2-", "bicromato"},
+        {"HCO3", "idrogeno solfito"},
+        {"PO4 3-", "fosfato"},
+        {"H2PO4", "diidrogeno fosfato"},
+        {"ClO4", "perclorato"}
+    };
+
+    int numFormula = sizeof(quiz) / sizeof(quiz[0]);
+    string answer;
+    bool correct;
+
+    cout << "Formula e nome chimico\n\n";
+
+    for (int i = 0; i < numFormula; i++) {
+
+        cout << i + 1 << ". " << quiz[i].formula << ": ";
+        cin >> answer;
+
+        correct = (answer == quiz[i].nomeChemica);
+
+        if (correct) {
+            cout << "Corretto.\n\n";
+        } else {
+            cout << "Sbagliato. La risposta giusta era: "
+                 << quiz[i].nomeChemica << "\n\n";
+        }
+    }
+
+    cout << "Hai completato il quiz.\n";
+
+    return 0;
+}
