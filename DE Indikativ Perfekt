@@ -1,0 +1,24 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+string IndikativPerfekt;
+getline(cin, IndikativPerfekt);
+if (IndikativPerfekt == "Indikativ Perfekt") {
+cout << "Do opisywania przeszłośći w języku mówionym";
+cout << "Do czynności zakończonych w przeszłośći ale mających związek z terazniejszością";
+cout << "Mniej formalny niż Prateritum";
+string Frasen;
+cout << "Schkreibe zu Fresen auf Deutch";
+getline(cin, Frasen);
+if (Frasen.find("bin gewesen")   != string::npos ||
+    Frasen.find("bist gewesen") != string::npos  ||
+    Frasen.find("ist gewesen")   != string::npos ||
+    Frasen.find("sind gewesen") != string::npos  ||
+    Frasen.find("sied gewesen")  != string::npos ||
+    Frasen.find("sind gewesen")  != string::npos) {
+    cout << "Korrekte Form des Indikativ Perfekt \n";
+    } else {
+    cout << "Die Form des Indikativ Perfekt wurde nicht gefunden \n";
+    }
