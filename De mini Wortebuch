@@ -1,0 +1,30 @@
+#include <iostream>
+#include <string>
+#include <map>
+
+using namespace std;
+
+int main() {
+cout << "Ich bin schonn immer uberzeugt gewesen, dass Cornetto besser als Croissant hehehe :) \n";
+cout << "Du bist zwischen Frankreich und Italien hin- und hergerissen gewenen weil das Essen \n";
+
+map<string, string> dictionary = {
+{"immer", "zawsze"},
+{"uberzeugt", "uberzeugen - przekonywac"},
+{"hergerissen", "majacy sprzeczne uczucia"}
+};
+
+string input;
+while (true) {
+	cin >> input;
+	if (input == "exit") break;
+
+	auto it = dictionary.find(input);
+	if (it != dictionary.end()) {
+		cout << it -> second << "\n";
+    } else { 
+	cout << "Nich im Wortebuch \n";
+}
+}
+return 0;
+}
