@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+cout << "Ich bin schon immer uberzeugt gewesen, dass Cornetto besser als Croissant gewesen ist \n";
+cout << "Du bist zwichen Frankreich und Italien hin- und hergerissen gewesen, weil das Essen uberall zu gut gewesen ist \n";
+cout << "Er ist neidisch gewesen, weil die Italiener stivoller gewesen sind \n";
+cout << "Sie ist stolz gewesen, weil die franzisische Kuche weltberuhmt gewesen ist \n";
+cout << "Es ist oft lusting gewesen, wenn Franzosen und Italiener miteinander gestritten haben \n";
+string input;
+cin >> input;
+if (input == "immer") {cout << "Zawsze \n";}
+else if (input == "uberzeugt") {cout << "uberzeugen - przekonywac \n";}
+else if(input == "hergerissen") {cout << "majacy sprzeczne uczucia \n";}
+return 0;
+};
