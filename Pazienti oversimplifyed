@@ -1,0 +1,78 @@
+#include <iostream>
+#include <string>
+#include <map>
+#include <queue>
+
+using namespace std;
+
+int main() {
+    map<string, string> pazienti;
+    queue<string> cronologia;
+
+    string comando;
+
+    cout << "Scrivi aiuto per vedere i commandi.\n";
+
+    while (true) {
+        cout << "\n> ";
+        getline(cin, comando);
+        cronologia.push(comando);
+
+        if (comando == "esci") {
+            cout << "Ciao\n";
+            break;
+        }
+
+        else if (comando == "aiuto") {
+            cout << "Commandi disponibili:\n";
+            cout << "- inserisci paziente\n";
+            cout << "- mostra tutti i pazienti\n";
+            cout << "- mostra paziente\n";
+            cout << "- mostra storie\n";
+            cout << "- esci\n";
+        }
+
+        else if (comando == "inserisci paziente") {
+            string nome, info;
+            cout << "Inserisci nome del paziente: ";
+            getline(cin, nome);
+            cout << "Iscrizione del paziente: ";
+            getline(cin, info);
+            pazienti[nome] = info;
+            cout << "Paziente e aggiunto.\n";
+        }
+
+        else if (comando == "mostra tutti pazienti ") {
+            cout << "Lista degli pazienti:\n";
+            for (auto &p : pazienti) {
+                cout << "- " << p.first << endl;
+            }
+        }
+
+        else if (comando == "mostra paziente") {
+            string nome;
+            cout << "Inserisci nome del paziente: ";
+            getline(cin, nome);
+            if (pazienti.find(nome) != pazienti.end()) {
+                cout << pazienti[nome] << endl;
+            } else {
+                cout << "Paziente non e trovato.\n";
+            }
+        }
+
+        else if (comando == "mostra storie") {
+            queue<string> temp = cronologia;
+            cout << "storia dei comendi:\n";
+            while (!temp.empty()) {
+                cout << temp.front() << endl;
+                temp.pop();
+            }
+        }
+
+        else {
+            cout << "err :).\n";
+        }
+    }
+
+    return 0;
+}
