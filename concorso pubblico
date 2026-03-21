@@ -1,0 +1,179 @@
+// Here i want to drill some queue and map skills with AI help
+
+#include <iostream>
+#include <string>
+#include <queue>
+#include <map>
+
+using namespace std;
+
+int main() {
+    map<string, string> regions;
+    queue<string> cities;
+
+    string comando;
+    cout << "Write 'aiuto' to know the commands\n";
+
+    while (true) {
+        cout << "\n> ";
+        getline(cin, comando);
+
+        if (comando == "aiuto") {
+            cout << "\nCommands:\n";
+            cout << "inserisci regione\n";
+            cout << "mostra tutte le regioni\n";
+            cout << "mostra regione\n";
+            cout << "aggiungi citta\n";
+            cout << "mostra citta\n";
+            cout << "esci\n";
+        }
+
+        else if (comando == "RENDE NOTO ") {
+cout R " che in esecuzione della propria determinazione n° 23 del 16/02/2026
+– è bandito un concorso pubblico per soli esami per la copertura di 
+n. 4 posti di Professionista sanitario della Riabilitazione – 
+Fisioterapista nel RUOLO SANITARIO dell’AREA DEI PROFESSIONISTI DELLA SALUTE
+E DEI FUNZIONARI Allegato A del C.C.N.L. Comparto Sanità triennio 2022-2024
+– a tempo indeterminato e pieno, vacanti nella dotazione organica 
+dell’Azienda, da destinare al Servizio di Riabilitazione. 
+Le mansioni del profilo sono quelle previste dall’Allegato 1 soprarichiamato
+– Declaratorie delle categorie e profili – nonché dal Decreto Ministeriale 
+n. 739/1994. 
+Ai posti suddetti verrà corrisposto il trattamento economico lordo stabilito
+dalle norme contrattuali in vigore al momento dell’assunzione relativamente 
+all’ Area Professionisti della Salute e Funzionari del vigente C.C.N.L. del 
+Comparto Sanità e dalla contrattazione integrativa aziendale in vigore 
+all’atto dell’assunzione in servizio. 
+Tutti gli emolumenti sono soggetti alle trattenute erariali, previdenziali 
+ed assistenziali previste a norma di legge. 
+Il periodo di prova stabilito dal contratto è di mesi 4 (quattro). 
+Il concorso è emanato nel rispetto di quanto previsto dal D.P.R. 487/1994 e 
+nel D.P.R. 220/2001, nonché dalla L. 127/1997, dalla Legge 68/1999 e dal 
+D. Lgs. 165/2001, e tutte successive modificazioni ed integrazioni. 
+Il rapporto di lavoro conseguente al presente bando è disciplinato dalle 
+norme >vigenti< per i dipendenti civili dello Stato di cui al D.P.R. n. 3 
+del 10.01.1957, al D.P.R. n. 686 del 03.05.1957, al D. Lgs n. 165 del 
+30.03.2001 e ss.mm.ii. e dai Contratti Collettivi Nazionali di Lavoro 
+vigenti per il Comparto Sanità ed è quindi incompatibile con qualsiasi altro 
+rapporto o incarico pubblico o privato, anche se di natura convenzionale, 
+fatto salvo quanto diversamente disciplinato da normative specifiche 
+applicabili. 
+Per l’accesso al lavoro è garantita >la pari< opportunità tra uomini e donne 
+di cui al D. Lgs. 198/2006, così come previsto altresì dall’art. 57 del 
+decreto legislativo 30 marzo 2001 n. 165. 
+Per i posti messi a concorso opera la seguente riserva di legge di n. 1 
+posto a favore dei volontari delle 
+FF.AA. (volontari in ferma breve triennale e volontari in ferma prefissata 
+di 1 o 4 anni congedati senza demerito ovvero durante il periodo di 
+rafferma, nonché volontari in servizio permanente) ed agli ufficiali 
+(di complemento in ferma biennale e/o in ferma prefissata che hanno 
+completato senza demerito la ferma contratta), 
+ai sensi del D. Lgs. n. 66/2010 art. 1014 c. 1 e art. 678 c. 9. 
+[Wyjaśnia się że]Si precisa che nel caso non ci siano candidati idonei nelle 
+prove concorsuali [nałeżących do]appartenenti alle 
+[wyżej wymienionych]anzidette categorie, il posto [zostanie przyznane]sarà 
+assegnato ad altro candidato [który uzyskał]utilmente collocato nella 
+graduatoria ";
+        }
+
+else if (comando == " requisiti generali - cittadinanza") {
+cout R" Possono partecipare al concorso gli [uczęstnicy]aspiranti 
+[spełniający]che posseggono i seguenti requisiti generali: cittadinanza italiana: 
+(sono [na równi traktowani]equiparati gli italiani non appartenenti alla 
+Repubblica) [lub]ovvero essere cittadino di uno degli Stati membri 
+dell’Unione Europea [lub]ovvero essere familiare di cittadino di uno degli 
+Stati membri dell’Unione Europea [nieposiadającym]non avente la cittadinanza
+di uno Stato membro, [pod warunkiem posiadania]purché titolare del diritto 
+di soggiorno o del diritto di soggiorno permanente; [albo bycie]oppure essere cittadino
+di Paesi terzi (extracomunitari) [pod warunkiem posiadania]purché titolare 
+del permesso di soggiorno CE per soggiornanti di lungo periodo o titolare 
+dello status di rifugiato [lub]ovvero dello status di 
+[ochrona uzupełniająca]protezione sussidiaria; i cittadini dell’Unione 
+Europea e di Paesi terzi devono [ponadto]peraltro [korzystac]godere dei 
+diritti civili e politici negli Stati di [pochodzenia]appartenenza o di 
+[przynałeżności]provenienza, avere adeguata conoscenza della 
+lingua italiana, essere in possesso, [z wyjątkiem]fatta eccezione della 
+titolarità della cittadinanza italiana, di tutti gli altri requisiti 
+previsti per i cittadini della repubblica."; }
+
+else if (comando == "requisiti generali - eta") {
+cout R "età non inferiore agli anni 18 e non superiore a 
+quella prevista dalla normativa vigente per il conseguimento della pensione
+di vecchiaia"; }
+assenza di condanne penali e di procedimenti penali in corso
+che, ai sensi delle vigenti disposizioni di legge, vietino la costituzione 
+del rapporto di impiego con la Pubblica Amministrazione; 
+assolvimento degli obblighi militari imposti dalla legge sul reclutamento 
+(per i candidati di sesso maschile nati prima del 31.12.1985); 
+conoscenza della lingua italiana, adeguata alla posizione funzionale da 
+conferire (che verrà accertata dalla Commissione esaminatrice 
+contestualmente alla valutazione delle prove d’esame) Non possono accedere 
+agli impieghi coloro i quali: a) siano stati esclusi dall’elettorato 
+politico attivo; b) c) siano stati destituiti o dispensati dall’impiego 
+presso una pubblica amministrazione per persistente insufficiente rendimento
+; siano stati dichiarati decaduti da un impiego statale ai sensi dell’art. 
+127, primo comma, lettera d) del T.U. approvato con D.P.R. 10.01.1957, n. 3.
+Ai sensi dell’art. 41, comma 2, del D.Lgs. n. 81 del 09.04.2008, i candidati
+saranno sottoposti a visita medica intesa a constatare l’idoneità alla 
+mansione cui lo stesso sarà destinato. Il giudizio medico positivo sarà 
+indispensabile ai fini dell’assunzione. ";
+            } else {
+                cout << "List of regions:\n";
+                for (const auto& r : regions) {
+                    cout << "- " << r.first << endl;
+                }
+            }
+        }
+
+        else if (comando == "mostra regione") {
+            string name;
+
+            cout << "Write the name of the region:\n";
+            getline(cin, name);
+
+            auto it = regions.find(name);
+
+            if (it != regions.end()) {
+                cout << "Info: " << it->second << endl;
+            } else {
+                cout << "Region not found.\n";
+            }
+        }
+
+        else if (comando == "aggiungi citta") {
+            string city;
+
+            cout << "Write city name:\n";
+            getline(cin, city);
+
+            cities.push(city);
+            cout << "City added to queue.\n";
+        }
+
+        else if (comando == "mostra citta") {
+            if (cities.empty()) {
+                cout << "No cities in queue.\n";
+            } else {
+                cout << "Cities in queue:\n";
+
+                queue<string> temp = cities; // copia per non distruggere originale
+
+                while (!temp.empty()) {
+                    cout << "- " << temp.front() << endl;
+                    temp.pop();
+                }в
+            }
+        }
+
+        else if (comando == "esci") {
+            cout << "Ciao!\n";
+            break;
+        }
+
+        else {
+            cout << "Unknown command. Type 'aiuto'.\n";
+        }
+    }
+
+    return 0;
+}
