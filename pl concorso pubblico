@@ -1,0 +1,70 @@
+/* Oczywiście — oto tłumaczenie na polski:
+
+---
+
+else if (comando == "obywatelstwo") {
+W konkursie mogą uczestniczyć kandydaci spełniający następujące ogólne 
+wymagania: posiadanie obywatelstwa włoskiego (na równi traktowani są Włosi 
+nienależący do Republiki) albo posiadanie obywatelstwa jednego z państw 
+członkowskich Unii Europejskiej, albo bycie członkiem rodziny obywatela 
+jednego z państw członkowskich Unii Europejskiej, nieposiadającym 
+obywatelstwa państwa członkowskiego, pod warunkiem posiadania prawa pobytu 
+lub prawa stałego pobytu; albo bycie obywatelem państw trzecich (spoza UE), 
+pod warunkiem posiadania zezwolenia na pobyt długoterminowy UE lub statusu 
+uchodźcy albo statusu ochrony uzupełniającej; obywatele Unii Europejskiej 
+oraz państw trzecich muszą ponadto korzystać z praw cywilnych i politycznych 
+w państwie pochodzenia lub przynależności, posiadać odpowiednią znajomość 
+języka włoskiego oraz – z wyjątkiem obywatelstwa włoskiego – spełniać 
+wszystkie pozostałe wymagania przewidziane dla obywateli Republiki";
+}
+wiek nie niższy niż 18 lat i nie wyższy niż przewidziany przez obowiązujące 
+przepisy dla uzyskania emerytury;
+brak wyroków skazujących oraz toczących się postępowań karnych, które zgodnie
+z obowiązującymi przepisami uniemożliwiałyby nawiązanie stosunku pracy z 
+administracją publiczną;
+uregulowany stosunek do obowiązku służby wojskowej (dla kandydatów płci 
+męskiej urodzonych przed 31.12.1985);
+znajomość języka włoskiego odpowiednia do stanowiska (zostanie oceniona 
+przez komisję egzaminacyjną w trakcie egzaminu). Nie mogą ubiegać się o 
+zatrudnienie osoby, które: a) zostały pozbawione czynnego prawa wyborczego;
+b) zostały zwolnione lub wydalone z pracy w administracji publicznej z 
+powodu trwałej niewystarczającej wydajności; c) zostały uznane za pozbawione 
+prawa do zatrudnienia w administracji państwowej zgodnie z 
+art. 127 ust. 1 lit. d) tekstu jednolitego zatwierdzonego dekretem Prezydenta
+Republiki z dnia 10.01.1957 nr 3. Zgodnie z art. 41 ust. 2 dekretu 
+ustawodawczego nr 81 z dnia 09.04.2008 kandydaci zostaną poddani badaniu 
+lekarskiemu mającemu na celu stwierdzenie zdolności do wykonywania pracy na 
+danym stanowisku. Pozytywne orzeczenie lekarskie jest warunkiem koniecznym 
+do zatrudnienia.
+  */
+
+#include <iostream>
+#include <string>
+#include <map>
+
+using namespace std;
+
+int main() {
+cout << " ... \n";
+cout << "... \n";
+
+map<string, string> dictionary = {
+{"appartenenti", "nałeżące"},
+{"anzidette", "wyżej wymienione"},
+{"hergerissen", "majacy sprzeczne uczucia"}
+};
+
+string input;
+while (true) {
+	cin >> input;
+	if (input == "exit") break;
+
+	auto it = dictionary.find(input);
+	if (it != dictionary.end()) {
+		cout << it -> second << "\n";
+    } else { 
+	cout << "Nich im Wortebuch \n";
+}
+}
+return 0;
+}
