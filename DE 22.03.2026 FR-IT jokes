@@ -1,17 +1,67 @@
+/* Czyli sobie na trzy takie duze obszary  to dzielę no  teraz nie będąc
+moim zdaniem fizjoterapeutą albo terapeutą zajęciowym, no to nie do końca 
+potrafię sobie wyobrazić żeby logopeda czy tam nauczyciel był w stanie
+taką terapię ręki poprowadzić pełną, bo podzielmy to, zupełnie jest co
+innego  terapia ręki dla mnie, a zupełnie jest co innego wspomaganie 
+grafomotoryki.
+JT. Patrz, no a ja Ci takie spytam: jak ty chcesz lepiej chodzic to co robisz
+- chodzisz, jak chcesz lepiej biegać to co robisz - biegasz a jak chcesz 
+poprawić swoje umiętności gry w tenisa to co robisz ? Grasz w tenisa. No jak
+ktoś ma lepiej pisać, dlaczego ma nie pisać ?*/
+
 #include <iostream>
 #include <string>
+
 using namespace std;
 
-int main() {
-cout << "Ich bin schon immer uberzeugt gewesen, dass Cornetto besser als Croissant gewesen ist \n";
-cout << "Du bist zwichen Frankreich und Italien hin- und hergerissen gewesen, weil das Essen uberall zu gut gewesen ist \n";
-cout << "Er ist neidisch gewesen, weil die Italiener stivoller gewesen sind \n";
-cout << "Sie ist stolz gewesen, weil die franzisische Kuche weltberuhmt gewesen ist \n";
-cout << "Es ist oft lusting gewesen, wenn Franzosen und Italiener miteinander gestritten haben \n";
-string input;
-cin >> input;
-if (input == "immer") {cout << "Zawsze \n";}
-else if (input == "uberzeugt") {cout << "uberzeugen - przekonywac \n";}
-else if(input == "hergerissen") {cout << "majacy sprzeczne uczucia \n";}
-return 0;
-};
+
+else if (comando == "37:31-38:16") {
+cout R" 37:31 I bambini, in alcuni casi, non hanno mai acquisito la capacità 
+di riconoscere determinati oggetti, come se non fossero mai stati adeguatamente
+stimolati o allenati in tal senso; 
+tale competenza si sviluppa infatti progressivamente nel tempo attraverso 
+l’esperienza.
+Dal punto di vista clinico, emergono tre ambiti di particolare rilevanza. 
+Il primo riguarda la relazione tra il controllo posturale e la funzione della 
+mano;
+il secondo concerne l’interazione tra la sensibilità e la funzione manuale. 
+Il terzo ambito, invece, è rappresentato dai disturbi motori direttamente 
+correlati a una lesione del sistema nervoso.
+In presenza di una lesione a livello corticale, si osserva un danno alle vie 
+nervose o alle aree deputate alla funzione della mano, con conseguenti 
+alterazioni della motricità. 
+Tali alterazioni si manifestano attraverso segni sia positivi sia negativi: 
+si può riscontrare una riduzione della forza muscolare, modificazioni del 
+tono, nonché alterazioni della sensibilità. Inoltre, possono comparire 
+riflessi patologicamente accentuati o condizioni di ipertonia, 
+tutte espressioni dirette del danno neurologico.. 38:16"; }
+else if (comando == "") { 
+cout R "Si consideri un semplice ragionamento: se si desidera migliorare la 
+propria capacità di camminare, cosa si fa? Si cammina. Se si vuole correre 
+meglio, si corre. E se l’obiettivo è perfezionare le abilità nel tennis, è 
+evidente che si debba giocare a tennis.
+Allo stesso modo, se una persona deve migliorare la scrittura, non si 
+comprende per quale motivo non debba esercitarsi proprio nello scrivere 39:15.";
+} 
+else if (comando == ) {
+cout R" Si sottolinea tuttavia che l’esercizio della scrittura, pur essendo 
+importante, non può essere considerato in modo isolato. 
+È necessario partire da una riflessione più ampia sulla posizione del bambino
+nel contesto scolastico. 
+Ci si dovrebbe infatti interrogare se il ruolo degli insegnanti sia quello 
+di intervenire direttamente con una terapia della mano oppure piuttosto di 
+curare in modo più approfondito il posizionamento del bambino: 
+come è seduto, come organizza il proprio corpo rispetto alla forza di gravità, 
+e in che misura la postura favorisca o ostacoli la funzione manuale.
+Nella pratica, si incontrano talvolta proposte come l’utilizzo di cuscini 
+sensoriali o di superfici instabili, ad esempio sedersi su una palla, 
+con l’idea che una base d’appoggio non stabile possa stimolare maggiormente 
+l’attività durante la seduta, evitando una posizione passiva.
+Tuttavia, è opportuno soffermarsi criticamente su questo approccio, 
+che compare frequentemente a diverse età. 
+L’assunto secondo cui l’instabilità favorisca automaticamente l’esercizio e 
+il miglioramento funzionale merita di essere analizzato con attenzione, 
+alla luce degli obiettivi terapeutici e delle reali capacità del bambino.
+ 40:21";
+
+}
