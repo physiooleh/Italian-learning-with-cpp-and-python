@@ -1,24 +1,100 @@
-#include <iostream>
-#include <string>
+/* POST EMOTIVO 
+A seguito delle consulenze mediche pediatriche con paralisi 
+cerebrale infantile (PCI) che state mostrando.
+Protesto contro il taglio e i trapianti di tendini e muscoli 
+nei bambini con PCI di tipo piramidale prima dell’intervento 
+di Rizotomia Selettiva Dorsale 
+Gentili Signori 
+Secondo la letteratura medica, basata su osservazioni di oltre 30 anni 
+e più di 3000 pubblicazioni su pazienti con PCI di tipo piramidale, l’ultima 
+meta-analisi del 2025 indica una sola sequenza terapeutica che offre l’unica 
+possibilità di rallentare nel tempo gli effetti della spasticità e migliorare 
+i risultati della riabilitazione e la qualità della vita dei pazienti:
+1. Fisioterapia e fisioterapia strumentale
+2. Rizotomia Selettiva Dorsale
+3. Correzioni ortopediche
+LE CORREZIONI ORTOPEDICHE NON RALLENTANO LA SPASTICITÀ.
+Il taglio di muscoli e tendini NON rallenta gli effetti negativi della spasticità nel tempo, 
+poiché la sua origine è nel sistema nervoso.
+Le correzioni ortopediche eseguite dopo la rizotomia su muscoli già privi di spasticità danno 
+risultati migliori e un effetto duraturo.
+L’unico metodo scientificamente comprovato in grado di inibire in modo permanente 
+la spasticità nel bambino è la RIZOTOMIA SELETTIVA DORSALE.
+L’eliminazione precoce della spasticità consente migliori risultati riabilitativi: non combattiamo 
+la spasticità, ma sviluppiamo le capacità rigenerative del sistema nervoso, del sistema muscolare 
+e del sistema osteo-legamentoso; ristabiliamo il corretto equilibrio muscolare, miglioriamo la forza 
+muscolare e la motricità fine e grossolana degli arti superiori e inferiori. 
+Preveniamo la formazione di atrofie muscolari e alterazioni osteo-legamentose che si sviluppano nel 
+tempo nonostante la riabilitazione o le correzioni ortopediche, a causa della spasticità.
 
-using namespace std;
+Bilancio giornaliero senza SDR 
+3 ore di riabilitazione – 21 ore di azione della spasticità → conseguenze: atrofia muscolare, 
+riduzione della forza, dolore tissutale, sviluppo di rigidità dei tessuti dovuta alla spasticità.
 
-string IndikativPerfekt;
-getline(cin, IndikativPerfekt);
-if (IndikativPerfekt == "Indikativ Perfekt") {
-cout << "Do opisywania przeszłośći w języku mówionym";
-cout << "Do czynności zakończonych w przeszłośći ale mających związek z terazniejszością";
-cout << "Mniej formalny niż Prateritum";
-string Frasen;
-cout << "Schkreibe zu Fresen auf Deutch";
-getline(cin, Frasen);
-if (Frasen.find("bin gewesen")   != string::npos ||
-    Frasen.find("bist gewesen") != string::npos  ||
-    Frasen.find("ist gewesen")   != string::npos ||
-    Frasen.find("sind gewesen") != string::npos  ||
-    Frasen.find("sied gewesen")  != string::npos ||
-    Frasen.find("sind gewesen")  != string::npos) {
-    cout << "Korrekte Form des Indikativ Perfekt \n";
-    } else {
-    cout << "Die Form des Indikativ Perfekt wurde nicht gefunden \n";
-    }
+Bilancio dopo SDR 
+3 ore di riabilitazione – 21 ore di rigenerazione dopo la riabilitazione, 
+assenza di atrofia muscolare, assenza di dolore, assenza di sviluppo di rigidità tissutale, 
+possibilità di miglioramento della forza muscolare e della motricità degli arti inferiori 
+e superiori.
+L’effetto più importante della SDR è il blocco del danno che la spasticità provoca all’organismo 
+a livello cellulare e metabolico, danno che si accumula nel tempo nonostante la riabilitazione 
+o le correzioni ortopediche.
+
+Fatti scientifici dalla letteratura:
+RIZOTOMIA
+non riduce la forza muscolare perché non interessa le radici motorie
+ripristina il tono fisiologico nei muscoli spastici
+ristabilisce l’equilibrio muscolare
+riduce l’iperreattività dell’arco riflesso spinale
+crea migliori condizioni per la riabilitazione
+previene rigidità e dolore tissutale
+migliora la motricità degli arti inferiori e superiori
+previene deformità corporee
+contribuisce alla derotazione dell’asse lungo della tibia nei bambini piccoli
+crea migliori condizioni per le correzioni ortopediche
+oltre il 90% dei genitori la rifarebbe per i propri figli
+prima si interviene, meglio è: riabilitazione senza spasticità
+
+La spasticità non aiuta a camminare!
+La spasticità non aiuta a raggiungere la stazione eretta!
+La spasticità è un aumento eccessivo, incontrollato e non inibibile del tono muscolare dei 
+muscoli estensori e flessori: quindi come può un bambino stare in piedi e camminare se i muscoli 
+non sono adeguatamente controllati?
+La spasticità, in ogni istante della sua azione, provoca atrofia delle cellule muscolari e del 
+collagene, genera catabolismo, deforma ossa e articolazioni, soprattutto durante la fase di crescita 
+del bambino. 
+In tale contesto, i muscoli contratti non riescono a seguire la crescita, causando ulteriori tensioni 
+tissutali. Si crea così un circolo patologico autoalimentato.
+
+Per questo motivo un organismo sano non sviluppa spasticità per crescere, alzarsi o camminare.
+Allego il link agli abstract di lavori scientifici a supporto delle teorie presentate, raccolti nel gruppo:
+[https://www.facebook.com/share/g/1HYqCzb5ME/](https://www.facebook.com/share/g/1HYqCzb5ME/)
+La qualificazione alla rizotomia è decisa dal NEUROCHIRURGO durante la consulenza, 
+sulla base dei dati della risonanza magnetica encefalica, 
+della valutazione neurologica e in collaborazione con il fisioterapista riguardo alle possibilità 
+riabilitative e allo stato clinico del bambino. 
+Il dialogo con i genitori è fondamentale per comprendere in cosa consiste l’intervento e cosa si può ottenere, 
+nonché cosa si potrebbe teoricamente perdere.
+
+Leggo che gli ortopedici valutano i pazienti per stabilire l’idoneità alla SDR e quando eseguirla — cosa insolita, poiché non eseguono interventi sul sistema nervoso.
+
+La rizotomia può fallire?
+Sì, può essere eseguita in modo non corretto — non esistono istruzioni rigide “bianco o nero” su quali fibre sezionare. Esistono linee guida, ma il resto dipende dall’esperienza del neurochirurgo.
+
+Sì, purtroppo la rizotomia è un intervento che può essere eseguito correttamente solo una volta nella vita.
+
+Il neurochirurgo, sulla base della propria esperienza, prende decisioni intraoperatorie sulla selezione delle fibre da sezionare, analizzando: indicazioni dell’elettrofisiologo, livello di anestesia, analisi intraoperatoria del fisioterapista, sintomi della PCI del bambino e obiettivo dell’intervento.
+
+Per questo motivo dovrebbe essere eseguita solo da team esperti con lunga esperienza, dopo un’accurata valutazione preoperatoria e una chiara definizione degli obiettivi con la famiglia.
+
+Sulla base della nostra esperienza di 13 anni possiamo affermare che non esiste un intervento uguale all’altro. Ogni caso pediatrico è diverso.
+
+Attualmente in Europa siamo un team con la più ampia casistica chirurgica in rizotomia, comprendente ogni livello GMFCS (1–5) e ogni tipo di paresi nella PCI (emiplegia, triplegia, tetraplegia).
+
+Cordiali saluti
+Dott. Marek Lickendorf
+[www.lickendorf.pl](http://www.lickendorf.pl)
+Neurochirurgo
+Reparto Clinico di Neurochirurgia Pediatrica
+Szczecin
+ */
