@@ -4,50 +4,27 @@
 using namespace std;
 
 struct Formula {
-    string formula;
-    string nomeChemica;
-};
+    cout R" Capitolo 2. 
+Il rapporto di lavoro e le responsabilita del personale sanitario
+2.1. Il rapporto di lavoro pubblico
+Il rapporto di lavoro personale sanitario presso le strutture pubbliche è disciplinato dalle leggi sul pubblico impiego 
+  Si definisce rapporto di pubblico impiego o, meglio di lavoro alle dipendenze delle pubbliche amministrazioni, quello in
+cui il lavoratore >pone< le proprie energie, in maniera stabile e continuativa, a disposizione dello Stato o di un ente 
+pubblico non economico.
+Gli indici significativi della natura pubblica del rapporto sono:
+>la natura di ente pubblico del soggetto datore di lavoro
+>la >pertinenza< delle >mansioni< ai compiti istituzionali /* pertinenza == attinenza, riguardo, riferimento a..., c'entra
+                                                            ha senso */
+>la carattere continuativo e durevole della prestazione richiesta  /* mansioni == compiti, lavoro, cose da fare, 
+                                                                     incarichi, funzioni*/
+Il rapporto e volontario, perchè nasce dall'incontro delle volontà del datore e del prestatore di lavoro, ed e 
+caratterizzato  dalla >rilevanza< che >in esso< assumono le qualità personali del lavotratore, sotto il duplice profilo
+della fiducia richiesta per >l'assolvimento< dell'incarico e delle necessarie competenze techniche e intellettive.
+/* rilevanza == impportanza, peso, valore, significato
+    in esso == in, in quel contesto, in quel cas, in quella situazione
+    assumono == hanno, diventano, prendono, si manifestano come*/
 
-int main() {
 
-    Formula quiz[] = {
-        {"NH3", "ammonio"},
-        {"OH-", "idrossido"},
-        {"NO2", "nitrito"},
-        {"NO3-", "nitrato"},
-        {"CH3COO", "acetato"},
-        {"CN-", "cianuro"},
-        {"MnO4", "permanganato"},
-        {"CrO4 2-", "cromato"},
-        {"Cr2O7 2-", "bicromato"},
-        {"HCO3", "idrogeno solfito"},
-        {"PO4 3-", "fosfato"},
-        {"H2PO4", "diidrogeno fosfato"},
-        {"ClO4", "perclorato"}
-    };
 
-    int numFormula = sizeof(quiz) / sizeof(quiz[0]);
-    string answer;
-    bool correct;
-
-    cout << "Formula e nome chimico\n\n";
-
-    for (int i = 0; i < numFormula; i++) {
-
-        cout << i + 1 << ". " << quiz[i].formula << ": ";
-        cin >> answer;
-
-        correct = (answer == quiz[i].nomeChemica);
-
-        if (correct) {
-            cout << "Corretto.\n\n";
-        } else {
-            cout << "Sbagliato. La risposta giusta era: "
-                 << quiz[i].nomeChemica << "\n\n";
-        }
-    }
-
-    cout << "Hai completato il quiz.\n";
-
-    return 0;
+";
 }
