@@ -1,0 +1,91 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+cout R"  
+Interpretazione della scheda TRACE (valutazione posturale del rachide dorsale)
+La tabella TRACE rappresenta uno strumento di valutazione clinica utilizzato per 
+quantificare il grado di asimmetria del tronco, in particolare nell’analisi posturale 
+di soggetti in età evolutiva. 
+Si tratta di un sistema di scoring basato sull’osservazione visiva, in cui a ciascun 
+parametro viene attribuito un punteggio crescente in funzione della severità della 
+deviazione dalla norma.
+L’obiettivo della scala è fornire una misura semi-quantitativa delle alterazioni posturali
+, utile sia in fase di screening sia nel monitoraggio dell’evoluzione nel tempo.
+
+Spalle – elevazione
+Questo parametro valuta la presenza di eventuale dismetria dell’altezza delle spalle sul 
+piano frontale.
+0: allineamento nella norma, assenza di asimmetrie
+1: asimmetria lieve
+2: asimmetria evidente
+3: asimmetria marcata
+
+Un dislivello delle spalle può essere correlato a squilibri muscolari, atteggiamenti 
+antalgici o compensi posturali.
+
+Scapole – entità della sporgenza
+
+Valuta il grado di prominenza scapolare e l’eventuale differenza tra i due lati.
+
+* **0**: nella norma
+* **1**: asimmetria lieve
+* **2**: asimmetria evidente
+
+Questo parametro consente di individuare eventuali segni di scapola alata o disfunzioni del controllo scapolo-toracico.
+
+---
+
+## 🔹 Triangoli della taglia (triangoli della vita)
+
+Si riferisce alla simmetria degli spazi compresi tra il tronco e gli arti superiori (triangoli della vita), osservati sul piano frontale.
+
+* **0**: nella norma
+* **1**: asimmetria lieve
+* **2**: asimmetria
+* **3**: asimmetria marcata
+* **4**: fianco assente oppure fianco “strapiombato”
+
+Un’asimmetria significativa in questo parametro può indicare una deviazione del tronco, frequentemente associata a scoliosi o atteggiamenti scoliotici.
+
+---
+
+## 🔹 Asimmetria del torace
+
+Valuta la posizione e l’eventuale disallineamento della gabbia toracica rispetto all’asse corporeo.
+
+* **0**: nella norma
+* **1**: retropulsione lieve
+* **2**: retropulsione marcata
+
+La retropulsione indica uno spostamento posteriore del torace rispetto alla linea di riferimento, spesso correlato a compensi posturali globali.
+
+---
+
+## 🔹 TRACE TOT (punteggio totale)
+
+Il punteggio totale deriva dalla somma dei singoli item, a cui viene aggiunta una costante (+1), secondo il protocollo della scala.
+
+**TRACE TOT = somma dei punteggi + 1**
+
+Questo valore rappresenta un indice complessivo del grado di asimmetria posturale: valori più elevati indicano un maggior livello di alterazione.
+
+---
+
+## 🧠 Considerazioni cliniche
+
+La scala TRACE non fornisce una diagnosi, ma costituisce uno strumento di screening e monitoraggio funzionale. È particolarmente utile nella pratica fisioterapica pediatrica per:
+
+* identificare precocemente dismorfismi del rachide
+* monitorare l’evoluzione posturale
+* supportare l’indicazione a ulteriori approfondimenti clinico-strumentali
+
+L’interpretazione dei risultati deve sempre essere integrata con l’esame clinico completo e con eventuali test specifici.
+
+---
+
+Se vuoi, nel prossimo step possiamo fare una cosa molto utile per il tuo esame:
+👉 ti faccio simulazioni di compilazione + ti correggo come se fossi l’esaminatore (in italiano tecnico).
+ ";
