@@ -71,51 +71,57 @@ ma:
 Nel caso di Ecolab, "Product sales" non significa che il cliente compra una macchina una volta e sparisce.
 
 Per esempio:
+un birrificio compra continuamente prodotti per sanificazione;
+una cartiera compra continuamente prodotti per il trattamento dell'acqua;
+una raffineria compra continuamente reagenti chimici;
+un impianto alimentare compra continuamente detergenti, disinfettanti e additivi.
 
-* un birrificio compra continuamente prodotti per sanificazione;
-* una cartiera compra continuamente prodotti per il trattamento dell'acqua;
-* una raffineria compra continuamente reagenti chimici;
-* un impianto alimentare compra continuamente detergenti, disinfettanti e additivi.
-
-Dal punto di vista contabile, ogni consegna viene registrata come vendita di prodotto. Però economicamente assomiglia molto a un abbonamento: il cliente deve riordinare continuamente gli stessi prodotti per mantenere l'impianto operativo. ([SEC][2])
+Dal punto di vista contabile, ogni consegna viene registrata come vendita di prodotto. 
+Però economicamente assomiglia molto a un abbonamento: il cliente deve riordinare continuamente 
+gli stessi prodotti per mantenere l'impianto operativo. ([SEC][2])
 
 Quindi il vero "moat" di Ecolab non è il leasing delle apparecchiature.
 
 Il moat è:
-
 1. installa il proprio sistema;
 2. monitora il processo produttivo;
 3. fornisce assistenza tecnica;
 4. ottimizza consumi di acqua ed energia;
 5. il cliente continua a comprare i prodotti chimici compatibili con quel sistema.
 
-Questo crea una sorta di "razor and blades model" (rasoio e lame): l'attrezzatura apre la porta, ma il profitto arriva dal consumo continuo dei prodotti.
+Questo crea una sorta di "razor and blades model" (rasoio e lame): l'attrezzatura apre la porta,
+ma il profitto arriva dal consumo continuo dei prodotti.
 
 Riguardo alla tua domanda sul backlog:
-
-La risposta è: **Ecolab non è un business da backlog come un costruttore di macchinari o un'azienda aerospaziale.**
-
-Non è come Airbus che può dire "ho 10 anni di ordini già firmati".
-
+La risposta è: Ecolab non è un business da backlog come un costruttore di 
+macchinari o un'azienda aerospaziale.
+  Non è come Airbus che può dire "ho 10 anni di ordini già firmati".
 Non è nemmeno come ASML che ha un order book visibile.
 
 Quello che Ecolab possiede è qualcosa di diverso:
+milioni di punti di utilizzo installati presso i clienti;
+contratti pluriennali in molti casi;
+consumi ricorrenti di prodotti;
+elevati costi di sostituzione.
 
-* milioni di punti di utilizzo installati presso i clienti;
-* contratti pluriennali in molti casi;
-* consumi ricorrenti di prodotti;
-* elevati costi di sostituzione.
-
-Per questo motivo la società parla molto più di "customer retention", crescita organica e vendite installate che di backlog. Nel 10-K non emerge un order backlog materiale come metrica principale del business. ([SEC][1])
+Per questo motivo la società parla molto più di "customer retention", crescita organica e vendite installate 
+che di backlog. Nel 10-K non emerge un order backlog materiale come metrica principale del business. ([SEC][1])
 
 Da value investor, la domanda che farei è:
 
 > Se domani Ecolab smettesse di cercare nuovi clienti, quanto fatturato perderebbe?
+La mia impressione è che perderebbe poco nel breve termine, perché gran parte del fatturato deriva da clienti 
+esistenti che continuano a consumare prodotti e servizi. 
+La crescita rallenterebbe, ma il business continuerebbe a generare molto cash flow. 
+Questo è molto diverso da una società che vive di nuovi contratti ogni anno. ([SEC][1])
 
-La mia impressione è che perderebbe poco nel breve termine, perché gran parte del fatturato deriva da clienti esistenti che continuano a consumare prodotti e servizi. La crescita rallenterebbe, ma il business continuerebbe a generare molto cash flow. Questo è molto diverso da una società che vive di nuovi contratti ogni anno. ([SEC][1])
-
-Quindi la tua intuizione iniziale non è necessariamente smentita dai numeri "Product and equipment sales". Anzi, per Ecolab la domanda cruciale non è "quanto fatturato è servizio", ma "quale percentuale delle vendite di prodotti è legata a consumi ripetitivi e a clienti che difficilmente cambieranno fornitore?". È lì che si trova il vero valore economico dell'azienda.
+Quindi la tua intuizione iniziale non è necessariamente smentita dai numeri "Product and equipment sales". 
+Anzi, per Ecolab la domanda cruciale non è "quanto fatturato è servizio", ma "quale percentuale delle vendite 
+di prodotti è legata a consumi ripetitivi e a clienti che difficilmente cambieranno fornitore?". 
+È lì che si trova il vero valore economico dell'azienda.
 
 [1]: https://www.sec.gov/Archives/edgar/data/31462/000110465926018357/ecl-20251231x10k.htm?utm_source=chatgpt.com "ECOLAB INC._December 31, 2025"
 [2]: https://www.sec.gov/Archives/edgar/data/31462/000155837025010768/ecl-20250630x10q.htm?utm_source=chatgpt.com "ECOLAB INC._June 30, 2025"
+
+//////////
 
